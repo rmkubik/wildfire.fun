@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-mdx',
       options: {

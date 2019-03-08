@@ -17,6 +17,7 @@ export default ({ label }) => (
           type="email"
           name="email"
           id="bd-email"
+          placeholder="email"
           className={emailSignUpStyles.email}
         />
         <input
