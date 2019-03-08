@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-theme-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ryan Kubik",
+  "devDependencies": {
+    "gatsby": "^2.1.24",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.1.24",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
+    "gatsby-mdx": "^0.4.2",
+    "gatsby-plugin-page-creator": "^2.0.9",
+    "gatsby-plugin-sass": "^2.0.10",
+    "node-sass": "^4.11.0"
+  }
+}

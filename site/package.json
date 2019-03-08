@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gatsby-config.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "author": "Ryan Kubik",
+  "dependencies": {
+    "gatsby": "^2.1.24",
+    "gatsby-theme-landing-page": "*",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
