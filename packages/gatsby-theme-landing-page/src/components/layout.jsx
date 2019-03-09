@@ -13,7 +13,7 @@ export default ({ children }) => (
           meta={[
             { name: 'description', content: twitterTokens.description },
             { name: 'twitter:card', content: 'summary_large_image' },
-            { name: 'twitter:site', content: window.location.href },
+            { name: 'twitter:site', content: twitterTokens.siteUrl },
             { name: 'twitter:title', content: twitterTokens.card.title },
             { name: 'twitter:description', content: twitterTokens.description },
             { name: 'twitter:image', content: twitterTokens.card.image },
