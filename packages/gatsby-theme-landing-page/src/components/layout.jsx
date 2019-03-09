@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import layoutStyles from './layout.module.scss';
 import twitterTokens from '../tokens/twitter';
-import './theme.scss';
+import '../theme/layout.scss';
 
 export default ({ children }) => (
   <div className={layoutStyles.column}>
