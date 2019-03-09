@@ -15,5 +15,17 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Wildfire',
+        short_name: 'Wildfire',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'minimal-ui',
+        icon: require.resolve('./assets/images/fire-emoji.png'),
+      },
+    },
   ],
 };

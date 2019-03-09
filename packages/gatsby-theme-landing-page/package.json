@@ -18,6 +18,7 @@
     "@mdx-js/mdx": "^0.20.3",
     "@mdx-js/tag": "^0.20.3",
     "gatsby-mdx": "^0.4.2",
+    "gatsby-plugin-manifest": "^2.0.22",
     "gatsby-plugin-page-creator": "^2.0.9",
     "gatsby-plugin-sass": "^2.0.10",
     "node-sass": "^4.11.0",
