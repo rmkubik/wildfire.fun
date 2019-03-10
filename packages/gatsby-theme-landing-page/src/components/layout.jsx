@@ -11,12 +11,13 @@ export default ({ children }) => (
     <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[
-            { name: 'description', content: twitterTokens.description },
+            { name: 'description', content: twitterTokens.card.description },
             { name: 'twitter:card', content: 'summary_large_image' },
-            { name: 'twitter:site', content: twitterTokens.siteUrl },
+            { name: 'twitter:site', content: twitterTokens.handle },
             { name: 'twitter:title', content: twitterTokens.card.title },
-            { name: 'twitter:description', content: twitterTokens.description },
-            { name: 'twitter:image', content: twitterTokens.card.image },
+            { name: 'twitter:description', content: twitterTokens.card.description },
+            { name: 'twitter:image:src', content: `${twitterTokens.siteUrl}${twitterTokens.card.image}` },
+            { name: 'twitter:url', content: twitterTokens.siteUrl },
           ]}
           title={twitterTokens.card.title}
         />
