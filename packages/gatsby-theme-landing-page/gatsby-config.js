@@ -27,5 +27,11 @@ module.exports = {
         icon: require.resolve('./assets/images/fire-emoji.png'),
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-125634529-2',
+      },
+    },
   ],
 };
