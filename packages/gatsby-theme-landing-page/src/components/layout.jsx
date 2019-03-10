@@ -14,6 +14,7 @@ export default ({ children }) => (
             { name: 'description', content: twitterTokens.card.description },
             { name: 'twitter:card', content: 'summary_large_image' },
             { name: 'twitter:site', content: twitterTokens.handle },
+            { name: 'twitter:creator', content: twitterTokens.handle },
             { name: 'twitter:title', content: twitterTokens.card.title },
             { name: 'twitter:description', content: twitterTokens.card.description },
             { name: 'twitter:image:src', content: `${twitterTokens.siteUrl}${twitterTokens.card.image}` },
