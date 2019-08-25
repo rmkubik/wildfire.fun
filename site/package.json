@@ -10,7 +10,7 @@
   "author": "Ryan Kubik",
   "dependencies": {
     "gatsby": "^2.1.24",
-    "gatsby-theme-landing-page": "*",
+    "gatsby-theme-rmkubik-landing-page": "file:../packages/gatsby-theme-rmkubik-landing-page",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   }

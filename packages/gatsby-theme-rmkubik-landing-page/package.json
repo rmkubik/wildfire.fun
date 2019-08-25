@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-landing-page",
+  "name": "gatsby-theme-rmkubik-landing-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,6 +23,7 @@
     "gatsby-plugin-manifest": "^2.0.22",
     "gatsby-plugin-page-creator": "^2.0.9",
     "gatsby-plugin-sass": "^2.0.10",
+    "kebab-case": "^1.0.0",
     "node-sass": "^4.11.0",
     "react-helmet": "^5.2.0",
     "react-tweet-embed": "^1.1.1"
