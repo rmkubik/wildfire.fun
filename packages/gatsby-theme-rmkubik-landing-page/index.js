@@ -6,3 +6,4 @@ export { default as Center } from './src/components/center';
 export { default as Header } from './src/components/header';
 export { default as SectionList } from './src/components/sectionList';
 export * from './src/components/grid';
+export { default as Image } from './src/components/images';
