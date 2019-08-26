@@ -4425,22 +4425,6 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-"gatsby-theme-rmkubik-landing-page@file:packages/gatsby-theme-rmkubik-landing-page":
-  version "1.0.0"
-  dependencies:
-    "@mdx-js/mdx" "^0.20.3"
-    "@mdx-js/tag" "^0.20.3"
-    "@u-wave/react-vimeo" "^0.8.1"
-    dashify "^2.0.0"
-    gatsby-mdx "^0.4.2"
-    gatsby-plugin-google-analytics "^2.0.16"
-    gatsby-plugin-manifest "^2.0.22"
-    gatsby-plugin-page-creator "^2.0.9"
-    gatsby-plugin-sass "^2.0.10"
-    node-sass "^4.11.0"
-    react-helmet "^5.2.0"
-    react-tweet-embed "^1.1.1"
-
 gatsby@^2.1.24:
   version "2.1.24"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.24.tgz#0522989cd4e0e6fc84e02fd2f97cf62cb8ef290b"
