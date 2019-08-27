@@ -13,6 +13,8 @@ import world2 from '../../assets/images/tall-grass-ash-world2.png';
 import world3 from '../../assets/images/image-windy-world3.png';
 import sixAward from '../../assets/images/six_award_2019.png';
 import titleScreen from '../../assets/images/wildire-worldmap-title.png';
+import titleWithBylineWhite from '../../assets/images/wildfire-title-with-byline-white.png';
+import titleWhite from '../../assets/images/wildfire-title-white.png';
 
 const images = {
   onlyYouCanPlay,
@@ -29,6 +31,8 @@ const images = {
   world3,
   sixAward,
   titleScreen,
+  titleWithBylineWhite,
+  titleWhite,
 };
 
 const Image = ({ src, alt }) => <img src={images[src]} alt={alt} />;
