@@ -12,7 +12,7 @@ const SectionList = ({ links }) => {
           ))}
         </div>
       </div>
-      <div>
+      <div className={sectionListStyles.imageContainer}>
         <Image src="titleScreenGif" alt="Wildfire title screen" />
       </div>
     </div>
