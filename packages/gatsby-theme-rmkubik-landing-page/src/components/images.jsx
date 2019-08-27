@@ -12,6 +12,7 @@ import world1 from '../../assets/images/world1-still.png';
 import world2 from '../../assets/images/tall-grass-ash-world2.png';
 import world3 from '../../assets/images/image-windy-world3.png';
 import sixAward from '../../assets/images/six_award_2019.png';
+import titleScreen from '../../assets/images/wildire-worldmap-title.png';
 
 const images = {
   onlyYouCanPlay,
@@ -27,6 +28,7 @@ const images = {
   world2,
   world3,
   sixAward,
+  titleScreen,
 };
 
 const Image = ({ src, alt }) => <img src={images[src]} alt={alt} />;
