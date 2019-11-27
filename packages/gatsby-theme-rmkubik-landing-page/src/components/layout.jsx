@@ -25,7 +25,7 @@ export default ({ children }) => (
         },
         {
           name: 'og:image',
-          content: twitterTokens.card.image,
+          content: `${twitterTokens.siteUrl}${twitterTokens.card.image}`,
         },
       ]}
       title={twitterTokens.card.title}
