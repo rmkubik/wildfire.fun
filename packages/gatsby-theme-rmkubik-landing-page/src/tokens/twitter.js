@@ -4,8 +4,9 @@ export default {
   handle: '@ryrykubes',
   siteUrl: 'https://wildfire.fun',
   card: {
-    title: 'Wildfire: Swap Tiles to Put Out Fires',
-    description: "Wildfire is a puzzle game where you swap tiles to contain raging forest fires before they destroy people's homes.",
-    image: worldMap
-  }
-}
+    title: 'Wildfire Swap: Solve puzzles to put out fires',
+    description:
+      "Protect people's homes from raging forest fires by tile-swapping your way out of tricky puzzles in Wildfire Swap.",
+    image: worldMap,
+  },
+};

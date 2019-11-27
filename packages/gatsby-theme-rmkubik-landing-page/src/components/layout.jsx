@@ -11,29 +11,22 @@ export default ({ children }) => (
     <Helmet
       htmlAttributes={{ lang: 'en' }}
       meta={[
-        { name: 'description', content: twitterTokens.card.description },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:site', content: twitterTokens.handle },
-        { name: 'twitter:creator', content: twitterTokens.handle },
-        { name: 'twitter:title', content: twitterTokens.card.title },
         {
-          name: 'twitter:description',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        { name: 'twitter:site', content: '@ryrykubes' },
+        { name: 'twitter:creator', content: '@ryrykubes' },
+        { name: 'og:url', content: twitterTokens.siteUrl },
+        { name: 'og:title', content: twitterTokens.card.title },
+        {
+          name: 'og:description',
           content: twitterTokens.card.description,
         },
         {
-          name: 'twitter:image:src',
-          content: `${twitterTokens.siteUrl}${twitterTokens.card.image}`,
-        },
-        { name: 'twitter:url', content: twitterTokens.siteUrl },
-        { name: 'og:title', content: twitterTokens.card.title },
-        { name: 'og:site_name', content: twitterTokens.card.title },
-        { name: 'og:url', content: twitterTokens.siteUrl },
-        { name: 'og:description', content: twitterTokens.card.description },
-        {
           name: 'og:image',
-          content: `${twitterTokens.siteUrl}${twitterTokens.card.image}`,
+          content: twitterTokens.card.image,
         },
-        { name: 'og:type', content: 'website' },
       ]}
       title={twitterTokens.card.title}
     />
